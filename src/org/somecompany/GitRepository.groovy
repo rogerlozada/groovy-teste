@@ -9,7 +9,7 @@ class GitRepository {
     String repository;
     String name;
 
-    public void setName(String _name){
+    public void setName(String _repository){
         name = _repository.tokenize('/')[-1]
     }
 
