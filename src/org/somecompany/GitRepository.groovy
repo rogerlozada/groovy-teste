@@ -1,7 +1,5 @@
 package org.somecompany
 
-import com.cloudbees.groovy.cps.NonCPS
-
 class GitRepository {
     GitRepository(String _repository) {
         this.repository = _repository;
@@ -10,6 +8,10 @@ class GitRepository {
 
     String repository;
     String name;
+
+    public void setName(String _name){
+        name = _name;
+    }
 
     public String getName(){
         return name;
