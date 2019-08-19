@@ -5,8 +5,8 @@ class GitRepository {
         this.repository = _repository;
     }
 
-    String repository;
-    String name;
+    private String repository;
+    private String name;
 
     public  String getRepository(){
         return repository;
