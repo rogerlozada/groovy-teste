@@ -3,7 +3,7 @@ package org.somecompany
 class GitRepository {
     GitRepository(String _repository) {
         this.repository = _repository;
-        this.SetName(_repository);
+        //this.SetName(_repository);
     }
 
     private String repository;
