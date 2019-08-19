@@ -6,7 +6,6 @@ class GitRepository {
     }
 
     private String repository;
-    private String name;
 
     public  String getRepository(){
         return repository;

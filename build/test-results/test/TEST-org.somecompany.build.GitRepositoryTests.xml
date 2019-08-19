@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.somecompany.build.GitRepositoryTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-19T17:39:49" hostname="roger-lozada" time="0.234">
+<testsuite name="org.somecompany.build.GitRepositoryTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-19T19:29:18" hostname="roger-lozada" time="0.219">
   <properties/>
-  <testcase name="testGitRepositoryNameMustBeEqualExpectedValue" classname="org.somecompany.build.GitRepositoryTests" time="0.234"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testGitNameMustBeEqualExpectedValue" classname="org.somecompany.build.GitRepositoryTests" time="0.219"/>
+  <system-out><![CDATA[accounts]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
