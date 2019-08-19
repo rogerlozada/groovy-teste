@@ -8,6 +8,10 @@ class GitRepository {
     String repository;
     String name;
 
+    public  String getRepository(){
+        return repository;
+    }
+
     public String getName(){
         return repository.tokenize('/')[-1];
     }
