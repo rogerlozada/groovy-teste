@@ -12,6 +12,6 @@ class GitRepository {
     String name;
 
     public String getName(){
-        return this.name;
+        return "teste";
     }
 }
