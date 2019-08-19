@@ -2,10 +2,8 @@ import org.somecompany.build.MsBuild
 import org.somecompany.ioc.ContextRegistry
 
 def call(String solutionPath) {
-    sh "echo 'teste'"
+    ContextRegistry.registerDefaultContext(this)
 
-    //ContextRegistry.registerDefaultContext(this)
-
-    //def msbuild = new MsBuild(solutionPath)
-    //msbuild.build()
+    def msbuild = new MsBuild(solutionPath)
+    msbuild.build()
 }
