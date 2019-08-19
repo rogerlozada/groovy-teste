@@ -5,14 +5,14 @@ import com.cloudbees.groovy.cps.NonCPS
 class GitRepository {
     GitRepository(String _repository) {
         this.repository = _repository;
-        this.setName(_repository);
     }
+
 
     private String repository;
     private String name;
 
-    @NonCPS
-    private void setName(_repository)
+    //@NonCPS
+    public void setName(_repository)
     {
         this.name = _repository.tokenize('/')[-1]
     }
