@@ -3,14 +3,14 @@ package org.somecompany
 class GitRepository {
     GitRepository(String _repository) {
         this.repository = _repository;
-        this.name = _repository.tokenize('/')[-1]
+        setName(_repository);
     }
 
     String repository;
     String name;
 
     public void setName(String _name){
-        name = _name;
+        name = _repository.tokenize('/')[-1]
     }
 
     public String getName(){
