@@ -12,16 +12,16 @@ class GitRepository {
     private String name;
 
     //@NonCPS
-    public void setName(_repository)
+    def setName(_repository)
     {
         this.name = _repository.tokenize('/')[-1]
     }
 
-    String getRepository() {
+    def getRepository() {
         return this.repository;
     }
 
-    String getName() {
+    def getName() {
         return this.name;
     }
 }
