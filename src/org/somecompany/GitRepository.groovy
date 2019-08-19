@@ -12,6 +12,6 @@ class GitRepository {
     String name;
 
     public String getName(){
-        return "teste";
+        return name;
     }
 }
